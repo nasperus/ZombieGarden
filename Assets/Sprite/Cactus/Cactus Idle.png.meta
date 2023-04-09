@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 125
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1076,7 +1076,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Cactus Idle_7: -1310342607
-      Cactus Idle_3: 999537372
+      Cactus Idle_18: -1469722922
       Cactus Idle_32: -2133696655
       Cactus Idle_26: 1653437519
       Cactus Idle_41: 997483078
@@ -1116,9 +1116,9 @@ TextureImporter:
       Cactus Idle_40: -1206011365
       Cactus Idle_34: -2008692328
       Cactus Idle_43: 2109295374
+      Cactus Idle_3: 999537372
       Cactus Idle_10: -794383014
       Cactus Idle_14: -998486162
-      Cactus Idle_18: -1469722922
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

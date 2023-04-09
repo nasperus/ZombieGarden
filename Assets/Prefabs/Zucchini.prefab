@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 7450530345171366009}
   - component: {fileID: 7450530345171366008}
   - component: {fileID: 731300168}
+  - component: {fileID: 1145804902016572778}
+  - component: {fileID: -2026266699684996210}
   m_Layer: 0
   m_Name: Zucchini
-  m_TagString: Untagged
+  m_TagString: Gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,4 +99,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30879d9111eb34e498f265c52a989844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
+--- !u!68 &1145804902016572778
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450530345171366007}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.19361016, y: -0.2706337}
+  - {x: 0.25382352, y: -0.2583239}
+  - {x: 0.27993417, y: -0.21077609}
+  - {x: 0.12417078, y: 0.09829116}
+  - {x: -0.07149911, y: 0.25016856}
+  - {x: -0.18148494, y: 0.27809715}
+  - {x: -0.27284622, y: 0.2534411}
+  - {x: -0.2838049, y: 0.14719486}
+  - {x: -0.004389763, y: -0.009145021}
+  - {x: 0.19511917, y: -0.26817393}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!50 &-2026266699684996210
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7450530345171366007}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
